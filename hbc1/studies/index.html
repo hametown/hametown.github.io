@@ -1,0 +1,73 @@
+---
+layout: default
+card: "This is the message I send to the include"
+---
+
+<style>
+.Head {
+  background-image: url({{ site.baseurl}}/assets/bible-7.jpeg);
+}
+</style>
+<section class="Head tc w-100 h-50 dib relative">
+	<section class="absolute mw8 top-1 center left-0 right-0 flex items-center">
+			<a class="Logo dib f2 b white ma0 pointer">H</a>
+
+		<section class="mla">
+			<ul class="list pa0 mv3 nav">
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/">Home</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/hbc1/sermons">Sermons</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/hbc1/studies">Studies</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/">About</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/">Contact</a></li>
+			</ul>
+		</section>
+	</section>
+	<section class="Overlay w-100 h-100 flex flex-wrap items-center justify-center">
+		<h1 class="ttu tracked">Studies</h1>
+	</section>
+</section>
+
+<section class="Content bg-light-gray w-100 tc center pa3 flex flex-wrap">
+
+	<p class="gray mv4 flex-100">Comprehensive discipleship studies on the core beliefs of Christianity in an effort to root and ground a Christian in the Word of God.</p>
+
+	{% include study.html studyTitle="Salvation" studyByline="What is salvation?" link="http://hametownbaptistchurch.org/downloads/Salvation.pdf" image="image-4" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Assurance" studyByline="Can I be certain of salvation?" image="lock-1" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Baptism" studyByline="What is Baptism?" image="water-1" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Bible" studyByline="What is God's Word?" image="bible-4" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Tempatation" studyByline="Can temptation be overcome?" image="path-1" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Prayer" studyByline="Does praying work?" image="pray-1" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Faith" studyByline="What does faith look like?" image="balloon-1" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Grace" studyByline="How powerful is grace?" image="flower-1" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Wisdom" studyByline="Where can I find wisdom?" image="compass-2" overlay="rgba(50,50,50,0.66)" %}
+
+  {% include study.html studyTitle="Witness" studyByline="How can I tell others about Christ?" image="people-1" overlay="rgba(50,50,50,0.66)"  %}
+
+  {% include study.html studyTitle="Eternal Salvation" studyByline="Can I lose my salvation?" image="building-1" overlay="rgba(50,50,50,0.66)" %}
+
+</section>
+
+<section class="Footer bg-light-gray flex">
+	<section class="flex-1 gray pa4">
+		<h3 style="font-family:'Avenir Next'" class="mt0 mb2">Hametown Baptist Church</h3>
+		<p class="mv1">4774 S Hametown Rd.</p>
+		<p class="mv1">Norton, OH 44203</p>
+		<p class="mv1"><a href="tel:3308257891" style="color:#008cff">330-825-7891</a></p>
+	</section>
+	<section class="flex-1 pa4">
+	</section>
+
+	<section class="flex-100 pa3 center tc">
+	<ul class="pa0 ma0 list">
+		<li><a href="/">Home</a></li>
+		<li><a href="/sermons">Sermons</a></li>
+		</ul>
+</section>

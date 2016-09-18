@@ -1,0 +1,82 @@
+---
+layout: default
+card: "This is the message I send to the include"
+---
+<section class="Head tc w-100 h-50 dib relative">
+	<section class="absolute mw8 top-1 center left-0 right-0 flex items-center">
+			<a class="Logo dib f2 b white ma0 pointer">H</a>
+
+		<section class="mla">
+			<ul class="list pa0 mv3 nav">
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/">Home</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/hbc1/sermons">Sermons</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/hbc1/studies">Studies</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/">About</a></li>
+				<li class="dib mh2"><a class="no-underline b white pointer" href="/">Contact</a></li>
+			</ul>
+		</section>
+	</section>
+	<section class="Overlay w-100 h-100 flex flex-wrap items-center justify-center">
+		<h1 class="ttu tracked">Hametown Baptist Church</h1>
+	</section>
+</section>
+
+<section class="Content bg-light-gray w-100 tc center pa5">
+	<h2>Holding Forth The Word of Life</h2>
+
+	<p class="gray measure center">The believers of Hametown Baptist Church invite you and your family to the renovated old Sherman School, transformed into a beautiful new sanctuary. Come worship and learn about the Lord with us.</p>
+
+	{% include study.html studyTitle="Purity" %}
+
+</section>
+
+<section class="P1 tc w-100 h-50 dib flex items-center justify-center">
+
+	<h1 class="white">Hello World!</h1>
+
+<!-- 	<p class="mh5 white snippet">Jesus answered and said unto her, Whosoever drinketh of this water shall thirst again: But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life.<br/><br/><b>John 4:13 & 14</b></p>
+
+	<style>
+	.snippet {
+		background: rgba(255,255,255,.25);
+		padding: 4rem;
+		border: 1px solid rgba(255,255,255,1);
+		border-radius: 4px;
+	}
+	</style> -->
+
+	{% include study.html param="value" variable-param="Purity" %}
+
+</section>
+
+
+<section class="Content mw7 center pa3">
+
+	<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. <b>Vestibulum lacinia arcu eget nulla</b>. Proin ut ligula vel nunc egestas porttitor. <b>Curabitur tortor</b>. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. </p>
+
+	<p>Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. </p>
+
+</section>
+
+<section class="Content mw7 center pa3">
+	<p>Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. </p>
+
+	<p>Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. </p>
+</section>
+
+<section class="Footer bg-light-gray flex">
+	<section class="flex-1 gray pa4">
+		<h3 style="font-family:'Avenir Next'" class="mt0 mb2">Hametown Baptist Church</h3>
+		<p class="mv1">4774 S Hametown Rd.</p>
+		<p class="mv1">Norton, OH 44203</p>
+		<p class="mv1"><a href="tel:3308257891" style="color:#008cff">330-825-7891</a></p>
+	</section>
+	<section class="flex-1 pa4">
+	</section>
+
+	<section class="flex-100 pa3 center tc">
+	<ul class="pa0 ma0 list">
+		<li><a href="/">Home</a></li>
+		<li><a href="/sermons">Sermons</a></li>
+		</ul>
+</section>

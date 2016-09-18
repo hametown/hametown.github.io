@@ -3,9 +3,126 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hametown</title>
+	<title>Hametown Baptist Church</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.4.1/css/tachyons.min.css"/>
 	<link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://example.com/feed.xml">
+	<style>
+	html {
+		font-family:-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+	}
+	.Head {
+		background-image: url('../assets/bible-3.jpeg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.Head .Overlay {
+		background: rgba(0,37,67,0.5);
+	}
+
+	.Head .Overlay h1 {
+		font-family: 'Avenir Next';
+		color: white;
+		font-size: 3rem;
+	}
+	.list li a {
+		text-decoration: none;
+	    text-transform: uppercase;
+	    font-size: .85rem;
+	    font-family: 'Avenir Next';
+	    letter-spacing: .16rem;
+	    position: relative;
+	}
+	.list li a:after {
+	    content: '';
+	    width: 0;
+	    display: block;
+	    height: 3px;
+	    bottom: -2px;
+	    left: 0;
+	    position: absolute;
+	    background: #fff;
+	    transition: 400ms ease width;
+	}
+
+	.list li a:hover {
+		color: #008cff;
+	}
+
+	.list li a:hover:after {
+		width: 100%;
+		background: #008cff;
+	}
+
+	.Logo {
+		position: relative;
+		display: inline-block;
+	}
+
+	.Logo:hover {
+		color: #008cff;
+	}
+
+	.Logo:after {
+	    content: '';
+	    width: 0;
+	    display: block;
+	    height: 3px;
+	    bottom: -2px;
+	    left: 0;
+	    position: absolute;
+	    background: #fff;
+	    transition: 400ms ease width;
+	}
+
+	.Logo:hover:after {
+		width: 100%;
+		background: #008cff;
+	}
+
+	.P1 {
+		background-image: url('../assets/bench-1.jpeg');
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.nav a {
+		position: relative;
+		display: inline-block;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.nav a:hover {
+		color: #008cff;
+	}
+
+	.nav a:after {
+	    content: '';
+	    width: 0;
+	    display: block;
+	    height: 3px;
+	    bottom: -2px;
+	    left: 0;
+	    position: absolute;
+	    background: #fff;
+	    transition: 400ms ease width;
+	}
+
+	.nav a:hover:after {
+		width: 100%;
+		background: #008cff;
+	}
+
+
+
+	.flex-1 { flex: 1; }
+	.flex-100 { flex: 100%; }
+	.mla { margin-left: auto; }
+	.h6 { height: 32rem; }
+	.bg-center { background-position: center center; }
+	.flex-50 { flex: 50%;}
+
+	</style>
 </head>
