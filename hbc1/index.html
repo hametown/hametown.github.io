@@ -3,12 +3,14 @@ layout: default
 card: "This is the message I send to the include"
 ---
 
-{% include header.html page="Home" image="bible-3" %}
+{% include header.html page="Hametown Baptist Church" image="bible-3" %}
 
 
-<section class="Content mw7 w-100 center pa4">
+<section class="Content gray mw7 w-100 center pa4">
 
-	<p class="f4 gray center baskerville">The believers of Hametown Baptist Church invite you and your family to the renovated old Sherman School, transformed into a beautiful new sanctuary. Come worship and learn about the Lord with us.</p>
+	<p class="f4 center baskerville">Welcome to our site! From here you can see our <a href="/hbc1/sermons">past sermons</a>, learn about our <a href="/hbc1/services">services</a>, or even receive our <a href="/hbc1/studies">study resources</a>.</p>
+
+	<p class="f4 center baskerville">The believers of Hametown Baptist Church invite you and your family to the renovated old Sherman School, transformed into a beautiful new sanctuary. Come worship and learn about the Lord with us.</p>
 
 </section>
 
@@ -20,8 +22,16 @@ card: "This is the message I send to the include"
 
 </section>
 
+<section class="w-100 mb3 cf">
+	{% include feature.html title="Study Resources" image="bible-7" overlay="rgba(0,0,0,0.5)" %}
 
-<section class="Content mw7 center pa3">
+	{% include feature.html title="Services" link="about" image="bible-11" overlay="rgba(0,0,0,0.5)" %}
+</section>
+
+
+
+
+<section class="Content gray mw7 center pa4 cf">
 
 	<p class="f4 baskerville">We meet on Sunday mornings for service, Sunday evenings for Prayer Meeting, and throughout the week for groups. </p>
 
