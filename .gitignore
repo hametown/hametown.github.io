@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 _assets
 .swp
+
+node_modules

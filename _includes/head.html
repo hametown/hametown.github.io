@@ -2,42 +2,49 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto|David+Libre" rel="stylesheet">
 
 	<title>Hametown Baptist Church</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.4.1/css/tachyons.min.css"/>
+	<link rel="stylesheet" href="../../assets/styles.css"/>
 	<link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://example.com/feed.xml">
 	<style>
 	html {
-		font-family:-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+		font-family:'Open Sans', sans-serif;
 	}
+	.montserrat { font-family: 'Montserrat'; }
+	.lato { font-family: 'Lato'; }
+	.roboto { font-family: 'Roboto'; }
+	.libre { font-family: 'David Libre'; }
+	.mh-350 { min-height: 350px; }
 	.Head {
-		background-image: url('../assets/bible-3.jpeg');
+		background-image: url('../assets/bible-3.jpg');
 		background-size: cover;
 		background-position: center center;
 	}
 	.Head .Overlay {
-		background: rgba(0,37,67,0.5);
+		/*background: rgba(0,37,67,0.5);*/
+		background: rgba(37,37,37,0.5);
 	}
 
 	.Head .Overlay h1 {
-		font-family: 'Avenir Next';
+		font-family: 'Avenir Next', 'Montserrat', sans-serif;
 		color: white;
 	}
-	.list li a {
+	.Head .list li a {
 		text-decoration: none;
-	    text-transform: uppercase;
+	    /*text-transform: uppercase;*/
 	    font-size: .85rem;
-	    font-family: 'Avenir Next';
+	    font-family: 'Avenir Next', 'Montserrat', sans-serif;
 	    letter-spacing: .16rem;
 	    position: relative;
 	}
-	.list li a:after {
+	.Head .list li a:after {
 	    content: '';
 	    width: 0;
 	    display: block;
-	    height: 3px;
+	    height: 1px;
 	    bottom: -2px;
 	    left: 0;
 	    position: absolute;
@@ -45,30 +52,31 @@
 	    transition: 400ms ease width;
 	}
 
-	.list li a:hover {
-		color: #008cff;
+	.Head .list li a:hover {
+		color: #FFD700;
 	}
 
-	.list li a:hover:after {
+	.Head .list li a:hover:after {
 		width: 100%;
-		background: #008cff;
+		background: #FFD700;
 	}
 
 	.Logo {
 		position: relative;
 		display: inline-block;
+		font-family: 'Avenir Next', 'Montserrat', sans-serif;
 	}
 
 	.Logo:hover {
-		color: #008cff;
+		color: #FFD700;
 	}
 
 	.Logo:after {
 	    content: '';
 	    width: 0;
 	    display: block;
-	    height: 3px;
-	    bottom: -2px;
+	    height: 2px;
+	    bottom: 2px;
 	    left: 0;
 	    position: absolute;
 	    background: #fff;
@@ -77,11 +85,11 @@
 
 	.Logo:hover:after {
 		width: 100%;
-		background: #008cff;
+		background: #FFD700;
 	}
 
 	.P1 {
-		background-image: url('../assets/bench-1.jpeg');
+		background-image: url('../assets/water-2.jpeg');
 		background-size: cover;
 		background-position: center center;
 	}
@@ -89,12 +97,12 @@
 	.nav a {
 		position: relative;
 		display: inline-block;
-		font-weight: bold;
+		/*font-weight: bold;*/
 		text-decoration: none;
 	}
 
 	.nav a:hover {
-		color: #008cff;
+		color: #FFD700;
 	}
 
 	.nav a:after {
@@ -111,7 +119,7 @@
 
 	.nav a:hover:after {
 		width: 100%;
-		background: #008cff;
+		background: #FFD700;
 	}
 
 
